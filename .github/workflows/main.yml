@@ -32,6 +32,7 @@ jobs:
     - name: Setup Payload Dumper
       run: |
         pip install git+https://github.com/5ec1cff/payload-dumper
+        wget -O payload.bin https://filebin.net/5k6cbzl2hnmg6a71/payload.bin
       continue-on-error: true     
 
     - name: Dumper
